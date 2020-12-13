@@ -1,2 +1,2 @@
 # go-shop-full
-An online shop which is build with MERN
+An online shop which is built with MERN
