@@ -1,0 +1,29 @@
+.dashboard {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-top: -4px;
+}
+/* 
+.dashboard .sidebar {
+    width: 350px;
+    padding: 1rem;
+} */
+
+.by-type-label {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.by-type-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-header {
+    margin-top: -1rem;
+    padding: 0.5rem 0;
+}

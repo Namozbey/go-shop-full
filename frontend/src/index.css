@@ -1,0 +1,28 @@
+@font-face {
+  font-family: monst-light;
+  src: url('./assets/fonts/Montserrat-Light.ttf');
+}
+
+@font-face {
+  font-family: monst-regular;
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: monst-medium;
+  src: url('./assets/fonts/Montserrat-Medium.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'monst-regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

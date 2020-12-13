@@ -1,0 +1,36 @@
+.register {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.register .bg-reg {
+    background-image: url('../../assets/img/untamed-blockchain-potential.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    height: 100vh;
+    transform: translate(-1px, -1px) scale(1.02);
+}
+
+.register .paper {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 !important;
+}
+
+.register a {
+    text-decoration: none;
+    color: unset
+}
+
+.register a:hover {
+    text-decoration: none;
+}
+
