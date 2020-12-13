@@ -40,13 +40,9 @@ router.route('/all').get((req, res) => {
                     .then(users => res.json(users))
                     .catch(err => res.status(400).json('Error: ' + err));
             } else {
-                res.status(401).json("You are not admin!")
+                res.status(401).json("You are not owner!")
             }
         }).catch(err => res.status(401).json("Invalid token: " + err))
-})
-
-router.route('/hi/:name').get((req, res) => {
-    return res.json(`Hi ${req.params.name}. What's up!`)
 })
 
 router.route('/reg').post((req, res) => {
